@@ -84,6 +84,7 @@ public class GarageTest {
 	 * résultat attendu.
 	 * @throws Exception 
 	 */
+        
 	@Test
 	public void testCorrectPrintFormat() throws Exception {
 		v1.entreAuGarage(g1);
@@ -122,6 +123,7 @@ public class GarageTest {
 	 * @param substring Sub-string to look for.
 	 * @return Count of substrings in string.
 	 */
+        
 	private int countSubstring(final String string, final String substring) {
 		int count = 0;
 		int idx = 0;
